@@ -4,8 +4,8 @@ Everything you need for cluster the AmazonReviewDataset
 # **INDEX**
 
 0. Explorative analysis:
-  - Nan's removal: 0.03% 
-  - Columns removal: only valuable items selected
+  - Nan's removal
+  - Columns selection
 1. Sentiment polarity and classification: 
   - Polarity: `TextBlob.sentiment.polarity`
   - Labeling [neg/neu/pos]
