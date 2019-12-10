@@ -7,19 +7,24 @@ Everything you need for cluster the AmazonReviewDataset
     - Nan's removal
     - Columns selection
 1. Sentiment polarity and classification: 
-    - Polarity: `TextBlob.sentiment.polarity`
-    - Labeling [neg/neu/pos]
+    - Polarity
+    - Labeling
 2. Preprocessing:
-    - Tokenizzazione: `nltk.word_tokenize())`
-    - Normalization: `str.lower(), x.translate("","",string.puntuaction)`
-    - Stop words removal: `nltk.stopwords(en="english")`
-    - Stemming: `PorterStemmer()`
-    - Lemmatization: `Lemmatizer()`
+    - Normalization
+    - Stop words removal
+    - Lemmatization
+    - Select English words
+    - Stemming
 3. Structural requirements:
     - Identify the classes
     - Create a custom vocabulary for class detection
 4. Clustering
+    - Dictionary Selection
     - TFiDF Matrix
-    - Cluster using KMeans
-    - Cluster using SpectralClustering
+    - Feature Selection
+    - Clustering
 
+### Acknowledgments: 
+    - http://www.lirmm.fr/~lafourca/pub/CNAM/CNAM%20selected%20papers/066.PDF
+    - http://www.lirmm.fr/~lafourca/pub/CNAM/CNAM%20selected%20papers/066.PDF
+    - https://realpython.com/python-keras-text-classification/
